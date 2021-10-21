@@ -59,4 +59,8 @@ GitHub: https://github.com/GoldGameCoin/GOLD/projects
 Vulnerability response
 -------------------------------------------------------------------------------------------------------------------
 
+Our  [Vulnerability Response Process] [https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md] encourages responsible disclosure
+
+We are also available via HackerOne
+
 
