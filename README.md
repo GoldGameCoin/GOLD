@@ -18,7 +18,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers
 - Web: [goldgamecoin.com](https://goldgamecoin.com)
 - Mail: [goldgamecoin@gmail.com]([goldgamecoin@gmail.com)
 - Github: [https://github.com/goldgamecoin-project/Gold](https://github.com/goldgamecoin-project/Gold)
-- Translation platform (Weblate): [translate.https://goldgamecoin.com](https://translate.goldgamecoin.com)
+- Translation platform (Weblate): [translate.https://goldgamecoin.com] (https://translate.goldgamecoin.com)
 
 ## Vulnerability response
 
