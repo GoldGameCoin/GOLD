@@ -4,7 +4,7 @@
 This README will walk you through everything you need to know to make changes, edits, or even completely new pages for the [golgamecoin.com website](https://goldgamecoin.com/). It'll definitely be a bit of a ride, so strap yourself in.
 Feel free to skip down to a relevant section if you already know what you need.
 
-If you need support about something related to the website, please join `#goldgamecoin-site` [Libera/IRC](irc://irc.libera.chat/#goldgamecoin-site) or [Matrix](https://matrix.to/#/!txpwSzQzkuUaVbtsIx:matrix.org). For general info about Monero join `#monero`. We'll do whatever we can to help you.
+If you need support about something related to the website, please join `#goldgamecoin-site` [Libera/IRC](irc://irc.libera.chat/#goldgamecoin-site) or [Matrix](https://matrix.to/#/!txpwSzQzkuUaVbtsIx:matrix.org). For general info about Monero join `#goldgamecoin`. We'll do whatever we can to help you.
 
 ## What you'll need
 
@@ -42,7 +42,7 @@ A few random points of note:
 - It is strongly strongly STRONGLY encouraged that if you make a change, you - at the minimum - test it on your local machine before submitting a PR. Sometimes unexpected things may happen due to a change. If you change a page, check the whole page on multiple screen sizes and browsers to make sure there wasn't any collateral damage.
 
 ### Tor
-This website is available natively on Tor. The onion address is in `_includes/onion.html` and a signed document containing the same address is in `/onion.txt`. The address in these 2 files must *always* match. The `onion.txt` files also includes the onion address of the 'downloads' subdomain.
+This website is [available] natively on Tor. The onion address is in `_includes/onion.html` and a signed document containing the same address is in `/onion.txt`. The address in these 2 files must *always* match. The `onion.txt` files also includes the onion address of the 'downloads' subdomain.
 
 If you want to post getmonero's onion address somewhere on the website, don't simply write it, instead include it using `{% include onion.html %}`. This avoids problems with typos and allow us top change the address only in one file if necessary.
 
