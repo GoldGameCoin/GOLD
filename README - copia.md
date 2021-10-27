@@ -42,7 +42,7 @@ A few random points of note:
 - It is strongly strongly STRONGLY encouraged that if you make a change, you - at the minimum - test it on your local machine before submitting a PR. Sometimes unexpected things may happen due to a change. If you change a page, check the whole page on multiple screen sizes and browsers to make sure there wasn't any collateral damage.
 
 ### Tor
-This website is [available] natively on Tor. The onion address is in `_includes/onion.html` and a signed document containing the same address is in `/onion.txt`. The address in these 2 files must *always* match. The `onion.txt` files also includes the onion address of the 'downloads' subdomain.
+This website is available natively on Tor. The onion address is in `_includes/onion.html` and a signed document containing the same address is in `/onion.txt`. The address in these 2 files must *always* match. The `onion.txt` files also includes the onion address of the 'downloads' subdomain.
 
 If you want to post getmonero's onion address somewhere on the website, don't simply write it, instead include it using `{% include onion.html %}`. This avoids problems with typos and allow us top change the address only in one file if necessary.
 
@@ -56,7 +56,7 @@ The entire website, except for the Moneropedia entries, is translatable on Webla
 
 Translators are required to have:
 
-- A basic understanding of Monero technologies and wallets
+- A basic understanding of Gold Game Coin technologies and wallets
 - A basic knowledge of markdown syntax
 - A basic knowledge of HTML syntax
 
@@ -75,8 +75,8 @@ Go to the /i18n folder and find the two letter code for the language you wish to
 ### 3. Translate the file
 Here you can do your translation. Depending on the page, you may have to maneuver around some HTML or markdown. In general, anything between two tags (such as `<p>TRANSLATE THIS</p>`) should be fine. Testing is VERY important, so do NOT skip it. If during testing, the page appears different from the original English page (besides the translated text, of course), you did something wrong and may have to start again.
 
-#### 3.1. Notes for Moneropedia Entries
-Moneropedia entries have two specificities:
+#### 3.1. Notes for Goldpedia Entries
+Goldpedia entries have two specificities:
 
 * The Front Matter:  
 Moneropedia Fron should be translated for both *entry:* and *summary:* elements. However, *terms:* should be extended with their translation, leaving the English words **untouched**.
@@ -135,7 +135,7 @@ Navigate to the \_i18n folder and duplicate the en.yml file. Rename the duplicat
 **The original folder and yml file themselves should still be there. They should not be renamed. There should be a new folder and yml file in addition to the ones that were already there.**
 
 ### 4. Open an issue on the repo where the website is hosted
-After you've done all the above, you'll need to [open an issue on the repository](https://github.com/monero-project/monero-site/issues) asking to add the language you are working on to Weblate, where the core of the website is translated.
+After you've done all the above, you'll need to [open an issue on the repository](https://github.com/Goldgamecoin-project/gold-site/issues) asking to add the language you are working on to Weblate, where the core of the website is translated.
 
 ## Housekeeping
 
@@ -255,16 +255,16 @@ In the event that you think your User Guide should be in a new Category that doe
 
 Repeat the above process for each language version of this index page.
 
-## How to make a Moneropedia Entry
+## How to make a Goldpedia Entry
 
 ### 1. Make a Global file
 Navigate to the /resources/moneropedia folder and make a new file. Be sure the file name has no spaces and the ending is .md
 Fill this file with this exact content:
 ```
 ---
-layout: moneropedia
-title: titles.moneropedia
-entry: moneropedia.entries.ENTRY
+layout: goldpedia
+title: titles.goldpedia
+entry: goldpedia.entries.ENTRY
 ---
 
 @moneropedia_article
@@ -307,7 +307,7 @@ summary: "PUT SUMMARY OF YOUR ENTRY HERE IN QUOTES"
 ```
 
 ### 5. Add the title to _i18n/en.yml
-Now you need to add the title of the page to the `_18n/en.yml` file. It *must* be in the `moneropedia` section and must be the same as the `ENTRY` you added early in the `/resources/moneropedia` folder (moneropedia.entries.ENTRY). Keeping as example a Moneropedia called "Daemon", you have to add in the `moneropedia` block `daemon: Daemon`.
+Now you need to add the title of the page to the `_18n/en.yml` file. It *must* be in the `goldpedia` section and must be the same as the `ENTRY` you added early in the `/resources/goldpedia` folder (goldpedia.entries.ENTRY). Keeping as example a Goldpedia called "Daemon", you have to add in the `moneropedia` block `daemon: Daemon`.
 
 ## How to update the Workgroups page
 
@@ -339,7 +339,7 @@ If an entry is `completed`, a green tick simble will be displayed on its left. i
 
 If you need to add a month, add `<h3 id="months">{% t roadmap.MONTH %}</h3>` above your roadmap entry. `MONTH` is one of the 12 months, you'll find the list in the `_18n/en.yml` file. In the `roadmap` section.
 
-The roadmap can be translated on Weblate [on Weblate](https://translate.getmonero.org/projects/getmonero/monero-site/).
+The roadmap can be translated on Weblate [on Weblate](https://translate.goldgamecoin.com/projects/gold/goldgamecoin-site/).
 
 ## How to add a question to the FAQ
 The structure of the FAQ is a bit more complex than it used to be and contains anchors, variables and a TOC. A step by step guide would be too complex to follow. A basic knowledge of HTML is necessary to edit the page. If you wish to add a new FAQ please open an issue in the repository or/and contact the Website workgroup.
