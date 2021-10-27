@@ -1,31 +1,31 @@
-![gh-actions/site](https://github.com/monero-project/monero-site/workflows/gh-actions/site/badge.svg?branch=master)
+![gh-actions/site](https://github.com/goldgamecoin-project/gold-game-coin-site/workflows/gh-actions/site/badge.svg?branch=master)
 
 ## Introduction
-This README will walk you through everything you need to know to make changes, edits, or even completely new pages for the [getmonero.org website](https://getmonero.org/). It'll definitely be a bit of a ride, so strap yourself in.
+This README will walk you through everything you need to know to make changes, edits, or even completely new pages for the [golgamecoin.com website](https://goldgamecoin.com/). It'll definitely be a bit of a ride, so strap yourself in.
 Feel free to skip down to a relevant section if you already know what you need.
 
-If you need support about something related to the website, please join `#monero-site` [Libera/IRC](irc://irc.libera.chat/#monero-site) or [Matrix](https://matrix.to/#/!txpwSzQzkuUaVbtsIx:matrix.org). For general info about Monero join `#monero`. We'll do whatever we can to help you.
+If you need support about something related to the website, please join `#goldgamecoin-site` [Libera/IRC](irc://irc.libera.chat/#goldgamecoin-site) or [Matrix](https://matrix.to/#/!txpwSzQzkuUaVbtsIx:matrix.org). For general info about Monero join `#monero`. We'll do whatever we can to help you.
 
 ## What you'll need
 
-* Jekyll: [getmonero.org](https://getmonero.org/) is made using a simple, static website generator called [Jekyll](https://jekyllrb.com/). You will need it installed on your system to test any changes that you made. Follow the instructions on the website to get up and going:
+* Jekyll: [goldgamecoin.com](https://goldgamecoin.com/) is made using a simple, static website generator called [Jekyll](https://jekyllrb.com/). You will need it installed on your system to test any changes that you made. Follow the instructions on the website to get up and going:
   * Install Ruby dependencies as suggested [in the Jekyll documentation](https://jekyllrb.com/docs/installation/)
   * Install Bundler: `gem install bundler`
   * Install Jekyll with all dependencies (run from the project directory): `bundle`
 
-* GitHub/GitLab: Pretty much everything in Monero is hosted on [GitHub](https://github.com/monero-project) or [getmonero GitLab](https://repo.getmonero.org/users/monero-project/projects) and uses Git as the primary version control system. If you're not familiar with how to use Git, you can check out [this tutorial](https://guides.github.com/activities/hello-world/) for a good overview. It will take you through pretty much everything you'll need to know to edit the website. If you haven't already, register on GitHub and fork the [Monero Website repository](https://github.com/monero-project/monero-site).
+* GitHub/GitLab: Pretty much everything in Monero is hosted on [GitHub](https://github.com/monero-project) or [getmonero GitLab](https://repo.getmonero.org/users/monero-project/projects) and uses Git as the primary version control system. If you're not familiar with how to use Git, you can check out [this tutorial](https://guides.github.com/activities/hello-world/) for a good overview. It will take you through pretty much everything you'll need to know to edit the website. If you haven't already, register on GitHub and fork the [goldgamecoin Website repository](https://github.com/goldgamecoin-project/gold-site).
 
 *Note: If you're confused, feel free to click other files in the same directory (folder) that you are in for the step that you are on to see some working examples. Compare them to the instructions and you should understand better.*
 
 Once you have the above list of things, it's typically a good idea to build the website from your local computer to make sure it works before you make any changes. To do this, complete the following steps:
 
-1. Navigate to your local `monero-site` repository.
+1. Navigate to your local `gold-site` repository.
 2. Serve the website: `bundle exec jekyll serve`. If you want, you can speedup this process by loading only the last blog post instead of all of them. Simply add `--limit_posts 1` to the command above. The resulting command will be `bundle exec jekyll serve --limit_posts 1`.
 3. Open a browser and go to [http://127.0.0.1:4000](http://127.0.0.1:4000).
 4. If all went well, you should see the Monero website and you're ready to make changes.
 
 ## General change recommendations
-The average Monero user that will want to contribute to the website should probably start looking for issues labelled [⛑️ contributor needed](https://github.com/monero-project/monero-site/issues?q=is%3Aissue+is%3Aopen+label%3A%22%E2%9B%91%EF%B8%8F+contributor+needed%22) or making blog posts, user guides or Moneropedia entries; all of which are covered in this document. If this is all you want to do, don't worry, it's actually not a daunting task at all.
+The average Monero user that will want to contribute to the website should probably start looking for issues labelled [⛑️ contributor needed](https://github.com/goldgamecoin-project/gold-site/issues?q=is%3Aissue+is%3Aopen+label%3A%22%E2%9B%91%EF%B8%8F+contributor+needed%22) or making blog posts, user guides or Moneropedia entries; all of which are covered in this document. If this is all you want to do, don't worry, it's actually not a daunting task at all.
 
 If you are a web developer and would like to make large macro-level changes, it would be best to open an issue first or to get in contact with the developers on `#monero-site` (IRC/Libera, Matrix).
 
@@ -35,7 +35,7 @@ Every section from here on out will talk about how to make a specific type of we
 
 A few random points of note:
 
-- After [a discussion](https://repo.getmonero.org/monero-project/monero-site/issues/982), the community decided to include only open source wallets in the 'Downloads' section of the website. Requests to add closed source wallets to that page will be rejected.
+- After [a discussion]--(https://repo.getmonero.org/monero-project/monero-site/issues/982)--, the community decided to include only open source wallets in the 'Downloads' section of the website. Requests to add closed source wallets to that page will be rejected.
 - Listing exchanges on the 'Merchants' page is at our discretion and acceptance shouldn't be assumed.
 - All external links must have `https://` in front of them or they will not redirect properly.
 - If you want to add a new page to the navigation, you should go to ALL LANGUAGES in the `_data/lang` folder and add the page.
