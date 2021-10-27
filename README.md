@@ -9,6 +9,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers
   * [Vulnerability response](#vulnerability-response)
   * [Introduction](#introduction)
   * [About this project](#about-this-project)
+  * [Project focus](#Project-focus-project)
   * [Supporting the project](#supporting-the-project)
   * [License](#license)
   * [Translations](#translations)
@@ -40,6 +41,17 @@ Gold Game Coin is a private, secure, untraceable, decentralised digital currency
 This is the GUI for the [core goldgamecoin implementation](https://github.com/goldgamecoin-project/Gold). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of GoldGameCoin that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
+
+## Project focus
+
+This project has been created for everyone, but especially to promote the cryptocurrency and E-SPORT market in a changing world focused on the virtual market.
+That is why GoldGameCoin, sponsors and cooperators are looking forward to starting this project with all of you.
+We will make a significant change in the way we view games and cryptocurrencies.
+Some examples of how the Gold Game Coin will be used
+- Rewards in tournaments.
+- Purchases on the sponsoring websites.
+- Change from virtual currency to currency in progress.
+and much more...
 
 ## Supporting the project
 
