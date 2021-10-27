@@ -12,15 +12,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers
   * [Supporting the project](#supporting-the-project)
   * [License](#license)
   * [Translations](#translations)
-  * [Installing the Monero GUI from a package](#installing-the-monero-gui-from-a-package)
-  * [Compiling the Monero GUI from source](#compiling-the-monero-gui-from-source)
-    + [Building Reproducible Windows static binaries with Docker (any OS)](#building-reproducible-windows-static-binaries-with-docker-any-os)
-    + [Building Reproducible Linux static binaries with Docker (any OS)](#building-reproducible-linux-static-binaries-with-docker-any-os)
-    + [Building Android APK with Docker (any OS) *Experimental*](#building-android-apk-with-docker-any-os-experimental)
-    + [Building on Linux](#building-on-linux)
-    + [Building on OS X](#building-on-os-x)
-    + [Building on Windows](#building-on-windows)
-
+  
 ## Development resources
 
 - Web: [goldgamecoin.com](https://goldgamecoin.com)
@@ -45,7 +37,7 @@ Gold Game Coin is a private, secure, untraceable, decentralised digital currency
 
 ## About this project
 
-This is the GUI for the [core goldgamecoin implementation](https://github.com/goldgamecoin-project/Gold). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
+This is the GUI for the [core goldgamecoin implementation](https://github.com/goldgamecoin-project/Gold). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of GoldGameCoin that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
@@ -67,7 +59,7 @@ See [LICENSE](LICENSE).
 
 ## Translations
 
-Do you speak a second language and would like to help translate the Monero GUI? Check out Weblate, our localization platform, at [goldgamecoin.com](https://translate.goldgamecoin.com/). Choose the language and suggest a translation for a string or review an existing one. The Localization Workgroup made [a guide with step-by-step instructions](https://github.com/goldgamecoin-ecosystem/goldgamecoin-translations/blob/master/weblate.md) for Weblate.
+Do you speak a second language and would like to help translate the GoldGameCoin GUI? Check out Weblate, our localization platform, at [goldgamecoin.com](https://translate.goldgamecoin.com/). Choose the language and suggest a translation for a string or review an existing one. The Localization Workgroup made [a guide with step-by-step instructions](https://github.com/goldgamecoin-ecosystem/goldgamecoin-translations/blob/master/weblate.md) for Weblate.
 
 If you need help/support or any info you can contact the localization workgroup on the IRC channel #goldgamecoin-translations (relayed on matrix/riot and MatterMost) or by email at translate[at]goldgamecoin[dot]com. For more info about the Localization workgroup: [github.com/golgamecoin-ecosystem/goldgamecoin-translations](https://github.com/goldgamecoin-ecosystem/goldgamecoin-translations)
 
@@ -76,7 +68,7 @@ Status of the translations:
 <img src="https://translate.goldgamecoin.com/widgets/gold/-/gui-wallet/horizontal-auto.svg" alt="Translation status" />
 </a>
 
-## 
+## Webentries
 
 It is strongly strongly STRONGLY encouraged that if you make a change, you - at the minimum - test it on your local machine before submitting a PR. Sometimes unexpected things may happen due to a change. If you change a page, check the whole page on multiple screen sizes and browsers to make sure there wasn't any collateral damage.
 
@@ -101,7 +93,7 @@ Here you can do your translation. Depending on the page, you may have to maneuve
 Goldpedia entries have two specificities:
 
 * The Front Matter:  
-Moneropedia Fron should be translated for both *entry:* and *summary:* elements. However, *terms:* should be extended with their translation, leaving the English words **untouched**.
+Goldpedia Fron should be translated for both *entry:* and *summary:* elements. However, *terms:* should be extended with their translation, leaving the English words **untouched**.
 	@@ -135,7 +135,7 @@ Navigate to the \_i18n folder and duplicate the en.yml file. Rename the duplicat
 **The original folder and yml file themselves should still be there. They should not be renamed. There should be a new folder and yml file in addition to the ones that were already there.**
 
@@ -117,7 +109,7 @@ Repeat the above process for each language version of this index page.
 ## How to make a Goldpedia Entry
 
 ### 1. Make a Global file
-Navigate to the /resources/moneropedia folder and make a new file. Be sure the file name has no spaces and the ending is .md
+Navigate to the /resources/goldpedia folder and make a new file. Be sure the file name has no spaces and the ending is .md
 Fill this file with this exact content:
 ```
 ---
@@ -125,12 +117,12 @@ layout: goldpedia
 title: titles.goldpedia
 entry: goldpedia.entries.ENTRY
 ---
-@moneropedia_article
+@goldpedia_article
 	@@ -307,7 +307,7 @@ summary: "PUT SUMMARY OF YOUR ENTRY HERE IN QUOTES"
 ```
 
 ### 5. Add the title to _i18n/en.yml
-Now you need to add the title of the page to the `_18n/en.yml` file. It *must* be in the `goldpedia` section and must be the same as the `ENTRY` you added early in the `/resources/goldpedia` folder (goldpedia.entries.ENTRY). Keeping as example a Goldpedia called "Daemon", you have to add in the `moneropedia` block `daemon: Daemon`.
+Now you need to add the title of the page to the `_18n/en.yml` file. It *must* be in the `goldpedia` section and must be the same as the `ENTRY` you added early in the `/resources/goldpedia` folder (goldpedia.entries.ENTRY). Keeping as example a Goldpedia called "Daemon", you have to add in the `goldpedia` block `daemon: Daemon`.
 
 ## How to update the Workgroups page
 
