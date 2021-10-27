@@ -35,7 +35,7 @@ Every section from here on out will talk about how to make a specific type of we
 
 A few random points of note:
 
-- After [a discussion]--(https://repo.getmonero.org/monero-project/monero-site/issues/982)--, the community decided to include only open source wallets in the 'Downloads' section of the website. Requests to add closed source wallets to that page will be rejected.
+- After [a discussion], the community decided to include only open source wallets in the 'Downloads' section of the website. Requests to add closed source wallets to that page will be rejected.
 - Listing exchanges on the 'Merchants' page is at our discretion and acceptance shouldn't be assumed.
 - All external links must have `https://` in front of them or they will not redirect properly.
 - If you want to add a new page to the navigation, you should go to ALL LANGUAGES in the `_data/lang` folder and add the page.
@@ -48,11 +48,11 @@ If you want to post getmonero's onion address somewhere on the website, don't si
 
 ## PR workflow
 
-To simplify the process of drafting, reviewing and merging pull requests, we use a GitHub Project board. This Kanban board makes easier for people to see and participate to the pull request workflow: [monero-site: PR workflow](https://github.com/orgs/monero-project/projects/1).
+To simplify the process of drafting, reviewing and merging pull requests, we use a GitHub Project board. This Kanban board makes easier for people to see and participate to the pull request workflow: [goldgamecoin-site: PR workflow](https://github.com/orgs/goldgamecoin-project/projects/1).
 
 ## Translation
 In this section you'll find the info you need to translate a page and add a new translation, but keep in mind that Monero has a [Localization Workgroup](https://github.com/monero-ecosystem/monero-translations) who coordinate and give support to translators-volunteers. For live support/request of information, come chat on `#monero-translations` on Matrix or IRC (Libera.chat)
-The entire website, except for the Moneropedia entries, is translatable on Weblate, an easy to use localization platform that provide contributors with a user friendly interface: [translate.getmonero.org](https://translate.getmonero.org). Before translating, please read [the guide for translators](https://github.com/monero-ecosystem/monero-translations/blob/master/weblate.md), which contains all the info and workflows you need to know before starting.
+The entire website, except for the Moneropedia entries, is translatable on Weblate, an easy to use localization platform that provide contributors with a user friendly interface: [translate.goldgamecoin.com](https://translate.getmonero.org). Before translating, please read [the guide for translators](https://github.com/gold-ecosystem/gold-translations/blob/master/weblate.md), which contains all the info and workflows you need to know before starting.
 
 Translators are required to have:
 
