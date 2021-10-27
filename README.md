@@ -83,7 +83,7 @@ It is strongly strongly STRONGLY encouraged that if you make a change, you - at 
 ### Tor
 This website is available natively on Tor. The onion address is in `_includes/onion.html` and a signed document containing the same address is in `/onion.txt`. The address in these 2 files must *always* match. The `onion.txt` files also includes the onion address of the 'downloads' subdomain.
 
-If you want to post getmonero's onion address somewhere on the website, don't simply write it, instead include it using `{% include onion.html %}`. This avoids problems with typos and allow us top change the address only in one file if necessary.
+If you want to post getgoldgamecoin's onion address somewhere on the website, don't simply write it, instead include it using `{% include onion.html %}`. This avoids problems with typos and allow us top change the address only in one file if necessary.
 
 	@@ -56,7 +56,7 @@ The entire website, except for the Moneropedia entries, is translatable on Webla
 
