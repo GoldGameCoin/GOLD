@@ -9,7 +9,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers
   * [Vulnerability response](#vulnerability-response)
   * [Introduction](#introduction)
   * [About this project](#about-this-project)
-  * [Project focus](#project-focus-project)
+  * [Project focus](#project-focus)
   * [Supporting the project](#supporting-the-project)
   * [License](#license)
   * [Translations](#translations)
