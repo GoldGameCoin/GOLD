@@ -7,7 +7,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers
 Table of Contents
  -------------------------------------------------------------------------------------------
  
- [Development resources https://github.com/GoldGameCoin/GOLD/edit/main/README.md/development resources]
+ [Development resources] [https://github.com/GoldGameCoin/GOLD/edit/main/README.md/development-resources]
  
  Vulnerability response
  
