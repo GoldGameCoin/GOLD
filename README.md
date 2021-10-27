@@ -35,13 +35,13 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers
 
 ## Introduction
 
-Monero is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+Gold Game Coin is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
 
-**Privacy:** Monero uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+**Privacy:** Gold Game Coin uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
 
 **Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
 
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Monero is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Gold Game Coin is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 
 ## About this project
 
@@ -69,7 +69,7 @@ See [LICENSE](LICENSE).
 
 Do you speak a second language and would like to help translate the Monero GUI? Check out Weblate, our localization platform, at [goldgamecoin.com](https://translate.goldgamecoin.com/). Choose the language and suggest a translation for a string or review an existing one. The Localization Workgroup made [a guide with step-by-step instructions](https://github.com/goldgamecoin-ecosystem/goldgamecoin-translations/blob/master/weblate.md) for Weblate.
 
-If you need help/support or any info you can contact the localization workgroup on the IRC channel #goldgamecoin-translations (relayed on matrix/riot and MatterMost) or by email at translate[at]getmonero[dot]org. For more info about the Localization workgroup: [github.com/golgamecoin-ecosystem/goldgamecoin-translations](https://github.com/goldgamecoin-ecosystem/monero-translations)
+If you need help/support or any info you can contact the localization workgroup on the IRC channel #goldgamecoin-translations (relayed on matrix/riot and MatterMost) or by email at translate[at]goldgamecoin[dot]com. For more info about the Localization workgroup: [github.com/golgamecoin-ecosystem/goldgamecoin-translations](https://github.com/goldgamecoin-ecosystem/goldgamecoin-translations)
 
 Status of the translations:  
 <a href="https://translate.goldgamecoin.com/engage/gold/?utm_source=widget">
@@ -85,7 +85,7 @@ This website is available natively on Tor. The onion address is in `_includes/on
 
 If you want to post getgoldgamecoin's onion address somewhere on the website, don't simply write it, instead include it using `{% include onion.html %}`. This avoids problems with typos and allow us top change the address only in one file if necessary.
 
-	@@ -56,7 +56,7 @@ The entire website, except for the Moneropedia entries, is translatable on Webla
+	@@ -56,7 +56,7 @@ The entire website, except for the Goldpedia entries, is translatable on Webla
 
 Translators are required to have:
 
